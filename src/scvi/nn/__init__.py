@@ -1,6 +1,7 @@
 from ._base_components import (
     Decoder,
     DecoderSCVI,
+    NormalDecoderSCVI,
     DecoderTOTALVI,
     Encoder,
     EncoderTOTALVI,
@@ -18,6 +19,7 @@ __all__ = [
     "EncoderTOTALVI",
     "Decoder",
     "DecoderSCVI",
+    "NormalDecoderSCVI",
     "DecoderTOTALVI",
     "LinearDecoderSCVI",
     "MultiEncoder",
